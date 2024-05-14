@@ -1,0 +1,68 @@
+body {
+    font-family: cherry swash;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #800000;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 20px;
+    color:#000000;
+}
+
+#gifts {
+    padding: 50px 0;
+    color: #fff;
+}
+
+#gifts h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #800000;
+}
+
+.gift-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gift-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 5px solid #800000;
+    transition: transform 0.3s;
+}
+
+.gift-box p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.gift-box img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #800000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
